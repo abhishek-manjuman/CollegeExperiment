@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">College Experiment</string>
+    <string name="txt_welcome">Welcome to your first Activity of ANDROID!</string>
+    <string name="exp_1">Experiment - 1</string>
+    <string name="exp_2">Experiment - 2</string>
+    <string name="user_name">Enter your name</string>
+    <string name="exp_3">Experiment-3</string>
+    <string name="exp_4">Experiment-4</string>
+    <string name="cal_clear">C</string>
+    <string name="cal_equal_to">=</string>
+    <string name="cal_power">^</string>
+    <string name="successful">Registration Successfull</string>
+    <string name="thanks_msg">You are successfuly register. Thank You !</string>
+</resources>
