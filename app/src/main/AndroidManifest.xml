@@ -27,7 +27,8 @@
         <activity android:name=".UserRegistration" />
         <activity android:name=".RegistrationConfermetion" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".UserDasboard"></activity>
+        <activity android:name=".UserDasboard" />
+        <activity android:name=".MoviesActivity"></activity>
     </application>
 
 </manifest>

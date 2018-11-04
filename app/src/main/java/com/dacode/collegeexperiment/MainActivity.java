@@ -19,29 +19,25 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = new Intent(this,WelcomeActivity.class);
         startActivity(intent);
-
-
     }
     public void onBtnClickExp2(View v){
 
         Intent intent = new Intent(this,CardOfBirthday.class);
         startActivity(intent);
-
-
     }
     public void onBtnClickExp3(View v){
 
         Intent intent = new Intent(this,ArithmeticCalculator.class);
         startActivity(intent);
-
-
     }
     public void onBtnClickExp4(View v){
 
         Intent intent = new Intent(this,UserRegistration.class);
         startActivity(intent);
-
-
     }
+    public void onBtnClickExp6(View v){
 
+        Intent intent = new Intent(this,MoviesActivity.class);
+        startActivity(intent);
+    }
 }
