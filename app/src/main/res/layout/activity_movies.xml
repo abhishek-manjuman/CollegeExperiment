@@ -52,38 +52,56 @@
             android:orientation="vertical"
             android:padding="10dp"
             android:elevation="20dp">
-            <RadioButton
+
+            <RadioGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/movie_comady"
-                android:text="Comady"
-                android:textSize="18dp"/>
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/movie_horrer"
-                android:text="Comady"
-                android:textSize="18dp"/>
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/movie_drama"
-                android:text="Comady"
-                android:textSize="18dp"/>
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/movie_action"
-                android:text="Comady"
-                android:textSize="18dp"/>
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/movie_thiriller"
-                android:text="Comady"
-                android:textSize="18dp"/>
+                android:id="@+id/radio_group">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/movie_comady"
+                    android:text="Comady"
+                    android:checked="true"
+                    android:textSize="18dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/movie_horrer"
+                    android:text="Horrer"
+                    android:textSize="18dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/movie_drama"
+                    android:text="Drama"
+                    android:textSize="18dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/movie_action"
+                    android:text="Action"
+                    android:textSize="18dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/movie_thiriller"
+                    android:text="Thiriller"
+                    android:textSize="18dp"/>
+
+            </RadioGroup>
         </LinearLayout>
 
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="Next"
+            android:id="@+id/btn_movie_next"
+            android:background="@drawable/shadow"/>
     </LinearLayout>
 
 </LinearLayout>
